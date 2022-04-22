@@ -1,0 +1,76 @@
+*{
+    margin:0;
+}
+
+html, body{
+    height: 100%;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    color:white;
+    background: rgba(10,2,129);
+    background: linear-gradient(180deg, rgba(10,2,129,1) 0%, rgba(0,212,255,1) 100%);
+}
+
+.photo{
+    width: 70px;
+    border-radius:50px;
+    border:2px solid white;
+    box-shadow: 0 0 20px white;
+
+}
+
+h1 { 
+    font-family: 'Architects Daughter', sans-serif;
+    font-weight: 100;
+    font-size:24px;
+    margin-bottom:4px;
+}
+
+h2 {
+    font-size:16px;
+    margin-top:5px;
+}
+
+.texto{
+    margin-top:20px;
+    text-align:center;
+}
+
+.redes{
+    display: flex;
+    justify-content:space-around;
+    list-style: none;
+    margin:20px 0;
+}
+
+.redes img{
+    width:25px;
+
+    
+}
+
+.quadrados {
+    color:rgba(10,2,129);
+    list-style:none;
+    justify-content: space-around;
+    padding:20px 20px;
+}
+
+.quadrados li a {
+    background: white;
+    color:rgba(10,2,129);
+    padding:15px 20px;
+    display:block;
+    margin:10px;
+    border-radius: 4px;
+    text-decoration:none;
+    font-weight:bold;
+    box-shadow: 0 0 7px white;
+}
+
+.quadrados li a span {
+    display:block;
+    margin-top:10px;
+    color:grey;
+}
